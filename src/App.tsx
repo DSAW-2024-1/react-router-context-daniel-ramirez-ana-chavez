@@ -1,7 +1,7 @@
 import "./App.css";
-import Home from "./Home";
-import Overview from "./Overview";
-import Contact from "./Contact";
+import Home from "./components/Home";
+import Contact from "./components/Contact";
+import Overview from "./components/Overview";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
