@@ -3,8 +3,7 @@ import React from "react";
 const Overview = () => {
   return (
     <div>
-      <h1>About</h1>
-      <p>Esta es la página "Acerca de" de nuestra aplicación.</p>
+      <h1>INFORMACION DE NUESTRA PAGINA</h1>
     </div>
   );
 };

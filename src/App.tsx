@@ -1,15 +1,17 @@
-import Contact from "./Components/Contact";
-import Home from "./Components/Home";
-import Overview from "./Components/Overview";
 import "./App.css";
+import Home from "./Home";
+import Overview from "./Overview";
+import Contact from "./Contact";
+import { Route, Routes } from "react-router-dom";
 
 function App() {
   return (
     <div>
-      <h1>perro 1</h1>
-      <Contact></Contact>
-      <Home></Home>
-      <Overview></Overview>
+      <Routes>
+        <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/o" element={<Overview></Overview>}></Route>
+        <Route path="/c" element={<Contact></Contact>}></Route>
+      </Routes>
     </div>
   );
 }
