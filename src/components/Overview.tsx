@@ -1,9 +1,12 @@
 import React from "react";
+import DeafaultLayout from "../Layouts/DeafaultLayout";
 
 const Overview = () => {
   return (
     <div>
-      <h1>INFORMACION DE NUESTRA PAGINA</h1>
+      <DeafaultLayout>
+        <h1>INFORMACION DE NUESTRA PAGINA</h1>
+      </DeafaultLayout>
     </div>
   );
 };

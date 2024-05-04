@@ -1,9 +1,12 @@
 import React from "react";
+import DeafaultLayout from "../Layouts/DeafaultLayout";
 
 const Contact = () => {
   return (
     <div>
-      <h1>Este es el contacto</h1>
+      <DeafaultLayout>
+        <h1>Este es el contacto</h1>
+      </DeafaultLayout>
     </div>
   );
 };
