@@ -9,7 +9,7 @@ const DeafaultLayout = ({ children }: DeafaultLayoutProps) => {
   const location = useLocation();
 
   // Verificar si la ruta actual es la página de inicio
-  const isHome = location.pathname === "/home";
+  const isHome = location.pathname === "/";
   const isOverview = location.pathname === "/overview";
   const isContact = location.pathname === "/contact";
   return (
@@ -20,7 +20,7 @@ const DeafaultLayout = ({ children }: DeafaultLayoutProps) => {
             {/* Mostrar el enlace "HOME" solo si no estamos en la página de inicio */}
             {!isHome && (
               <li>
-                <Link to="/home">HOME</Link>
+                <Link to="/">HOME</Link>
               </li>
             )}
             {!isOverview && (
