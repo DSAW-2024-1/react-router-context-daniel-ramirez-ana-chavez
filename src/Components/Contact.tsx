@@ -1,14 +1,14 @@
 import React from "react";
 import DeafaultLayout from "../Layouts/DeafaultLayout";
 
-const Overview = () => {
+const Contact = () => {
   return (
     <div>
       <DeafaultLayout>
-        <h1>INFORMACION DE NUESTRA PAGINA</h1>
+        <h1>Este es el contacto</h1>
       </DeafaultLayout>
     </div>
   );
 };
 
-export default Overview;
+export default Contact;

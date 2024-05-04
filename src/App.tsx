@@ -1,19 +1,13 @@
 import "./App.css";
-import Home from "./components/Home";
-import Contact from "./components/Contact";
-import Overview from "./components/Overview";
+import Home from "./Components/Home";
+import Contact from "./Components/Contact";
+import Overview from "./Components/Overview";
+import Login from "./Components/Login";
 import { Route, Routes } from "react-router-dom";
+import { MiProvider } from "./Components/Contexto";
 
 function App() {
-  return (
-    <div>
-      <Routes>
-        <Route path="/" element={<Home></Home>}></Route>
-        <Route path="/o" element={<Overview></Overview>}></Route>
-        <Route path="/c" element={<Contact></Contact>}></Route>
-      </Routes>
-    </div>
-  );
+  return <h1>hola</h1>;
 }
 
 export default App;
