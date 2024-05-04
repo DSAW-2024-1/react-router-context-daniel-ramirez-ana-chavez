@@ -15,7 +15,7 @@ const Login = () => {
     if (email === "admin@admin.com" && password === "admin") {
       setIsAuthenticated(true);
       localStorage.setItem("isAuthenticated", "true");
-      setRedirect(true); // Activar la redirección
+      setRedirect(true);
     } else {
       // Si el correo no es correcto, puedes mostrar un mensaje de error o realizar otras acciones
       setIsAuthenticated(false);
@@ -28,7 +28,7 @@ const Login = () => {
 
   return (
     <>
-      {redirect && <Navigate to="/home" />}
+      {redirect && <Navigate to="/" />}
       <DeafaultLayout>
         <form className="form" onSubmit={handleSubmit}>
           <h1>Login</h1>

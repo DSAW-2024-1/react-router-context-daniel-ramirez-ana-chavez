@@ -20,15 +20,15 @@ const router = createBrowserRouter([
     element: <ProtectedRoutes />,
     children: [
       {
-        path: "/home",
+        path: "/", // Ruta de inicio
         element: <Home />,
       },
       {
-        path: "/overview",
+        path: "overview", // Ruta de vista general relativa
         element: <Overview />,
       },
       {
-        path: "/contact",
+        path: "contact", // Ruta de contacto relativa
         element: <Contact />,
       },
     ],
