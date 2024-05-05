@@ -1,5 +1,6 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/yGCr2kOI)
 # Desarrollo de Aplicaciones Web
-## NOMBRE_DE_LOS_ESTUDIANTES
+## Daniel Ramirez & Ana María Chaves Pérez
 ### Universidad de La Sabana
 #### 2024 - I
 
@@ -49,4 +50,12 @@ Crear un router seguro utilizando React.js, React Context y localStorage. Permit
 - Si el repositorio no se marca, se obtendrá una calificación de 0.
 
 **¡Buena suerte!**
+
+Daniel Ramirez & Ana María Chaves Pérez
+
+[URLtrabajo](https://repo-login-santii08s-projects.vercel.app/login)
+
+Tuvimos un problema con el repo que salió del fork, eso estaba loco. Por lo tanto, como buenos ingenieros, solucionamos y creamos otro repositorio, y ahí sí funcionó. El error es que en este repo y en el fork verás dos carpetas: `Components` y `components`, y la segunda no existía en nuestro código. Cuando lo clonamos, tampoco existía. Entonces, clonamos el repo y ese nuevo repo fue el que subimos a Vercel. De igual manera, el código es el mismo, solo cambió ese pequeño detalle de las dos carpetas. A continuación, el repo que funcionó:
+
+[RepoQueFunciono](https://github.com/Santii08/repo_login.git)
 
