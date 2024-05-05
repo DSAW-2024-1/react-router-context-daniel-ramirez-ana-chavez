@@ -50,8 +50,12 @@ Crear un router seguro utilizando React.js, React Context y localStorage. Permit
 - Si el repositorio no se marca, se obtendrá una calificación de 0.
 
 **¡Buena suerte!**
+
 Daniel Ramirez & Ana María Chaves Pérez
-[URLtrabajo]((https://repo-login.vercel.app/login))
-Tuvimos un problema con el repo que salio del fork, eso estaba loco, por lo tanto como buenos ingenieros solucionamos y creamos otros repositorio y ahi si funciono, el error es que en este repo y en el fork vera dos carpetas Components y components, y la segunda no existia en nuestro codigo, y cuando clonamos tampoco existia , entonces clonamos el repo y ese nuevo repo fue el que subimos a vercel, de igual manera el codigo es el mismo, solo cambios ese pequeño detalle de las dos carpetas aun asi, a continuación el repo que funciono.
-[RepoQueFunciono]((https://repo-login.vercel.app/login)](https://github.com/Santii08/repo_login.git))
+
+[URLtrabajo](https://repo-login.vercel.app/login)
+
+Tuvimos un problema con el repo que salió del fork, eso estaba loco. Por lo tanto, como buenos ingenieros, solucionamos y creamos otro repositorio, y ahí sí funcionó. El error es que en este repo y en el fork verás dos carpetas: `Components` y `components`, y la segunda no existía en nuestro código. Cuando lo clonamos, tampoco existía. Entonces, clonamos el repo y ese nuevo repo fue el que subimos a Vercel. De igual manera, el código es el mismo, solo cambió ese pequeño detalle de las dos carpetas. A continuación, el repo que funcionó:
+
+[RepoQueFunciono](https://github.com/Santii08/repo_login.git)
 
