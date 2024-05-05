@@ -1,34 +1,7 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "/src/main.tsx",
-        "use": "@vercel/node"
-      },
-      {
-        "src": "/package.json",
-        "use": "@vercel/static-build",
-        "config": {
-          "distDir": "build"
-        }
-      }
-    ],
-    "routes": [
-      {
-        "src": "/login/(.*)",
-        "dest": "/src/Components/Login.tsx"
-      },
-      {
-        "src": "/(.*)",
-        "dest": "/src/Components/Home.tsx"
-      },
-      {
-         "src": "/overview(.*)\\.png",
-         "dest": "/src/Components/Overview.tsx"
-       },
-      {
-        "src": "/contact(.*)",
-        "dest": "/src/Components/Contact.tsx"
-      }
-    ]
-  }
+    "rewrites":  [
+        {"source": "/(.*)", "destination": "/"}
+     ]
+ }
+ 
+ 
